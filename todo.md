@@ -1,0 +1,39 @@
+# Project TODO
+
+- [x] Design the authenticated OpenAPI Forge information architecture and polished developer-tool visual system.
+- [x] Implement login, logout, and protected application routes using the scaffolded authentication flow.
+- [x] Create database schema and protected procedures for API projects, specification versions, and recent activity.
+- [x] Build project workspace creation, listing, and deletion flows.
+- [x] Build the dashboard with project overview, recent activity feed, and quick-access cards.
+- [x] Build an OpenAPI specification editor with syntax highlighting and file upload support.
+- [x] Implement detailed OpenAPI schema validation with errors and warnings.
+- [x] Build interactive API documentation preview for endpoints, parameters, and request/response schemas.
+- [x] Build endpoint list view with method badges, paths, and descriptions.
+- [x] Implement per-endpoint mock response generation derived from the OpenAPI specification.
+- [x] Implement project version saving and version switching.
+- [x] Implement TypeScript client SDK generation and download from validated specifications.
+- [x] Add focused Vitest coverage for core OpenAPI parsing, validation, generation, and authorization logic.
+- [x] Verify responsive layouts, smooth interactions, loading/error/empty states, and accessibility.
+- [x] Review TODO completion status before the final checkpoint and delivery.
+- [x] Refine the visual system with a distinctive, cohesive OpenAPI/developer-tool identity and re-review the key dashboard and workspace screens.
+- [x] Add Vitest coverage for protected project/version ownership checks and authorization boundaries.
+- [x] Verify the live project workspace with a project created through the UI, then confirm dashboard/workspace visual consistency and clean up the temporary project.
+- [x] Document desktop/mobile verification findings for dashboard and project workspace, including loading, empty, and accessible control states.
+- [x] Provide a simple user-side authenticated workspace verification checklist because live login was deferred.
+- [x] Verify the live project workspace at a mobile viewport, including tab overflow, editor usability, and action reachability.
+- [x] Document dashboard and workspace loading, error, empty, and accessible control states in the verification notes.
+- [x] Perform a final TODO audit after mobile and accessibility-state verification, then save the final delivery checkpoint.
+- [x] Fix high-ID project route handling so every created workspace loads instead of remaining on the spinner.
+- [x] Deliver a Roman Urdu product explainer covering API purpose, generated outputs, portfolio linking, and VaultX/FaucetX OpenAPI showcase workflow.
+- [x] Deliver a Roman Urdu cross-project adoption roadmap and distinguish the ready core product from optional future upgrades.
+- [x] Inspect the authorized VaultX repository routes and create a safe real OpenAPI specification without exposing secrets.
+- [x] Integrate the VaultX OpenAPI specification and generated TypeScript client into the VaultX repository with clear documentation.
+- [x] Prepare OpenAPI Forge for GitHub export and document secure user-side deployment options.
+- [x] Replace VaultX hardcoded third-party credentials with environment-variable references and document provider-key rotation requirements before further deployment.
+- [x] Resolve VaultX lint errors and production-build prerender failure before considering Vercel deployment.
+- [x] Ensure VaultX environment template is intentionally versioned while real `.env` files remain ignored.
+- [x] Deliver secure Manus-vs-Vercel deployment instructions, including provider environment-variable setup and publish steps.
+- [x] Verify VaultX Vercel project configuration and deployment status through a secure user-managed login session.
+- [x] Confirm user-managed provider environment variables are present and deliver final testnet validation guidance without handling secret values.
+- [x] Create a portfolio-ready OpenAPI Forge README.md after matching the visual structure and documentation depth of VaultX and FaucetX reference READMEs.
+- [ ] Replace legacy OpenAPI-specific tests with LandMake ownership and generation route tests so the full suite passes.
